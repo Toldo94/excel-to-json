@@ -9,7 +9,7 @@ Prebuilt apps for Windows, macOS and Linux are attached to each
 [GitHub Release](../../releases). Builds are unsigned:
 
 - **Windows:** SmartScreen shows a warning. Click *More info → Run anyway*.
-- **macOS:** right-click the app and choose *Open* the first time. The build targets Apple Silicon.
+- **macOS:** right-click the app and choose *Open* the first time. Pick `macos-arm64` for Apple Silicon (M1 and later) or `macos-intel` for Intel Macs. The wrong one shows "not supported on this Mac".
 - **Linux:** extract the `.tar.gz` and run `ExcelToJSON/ExcelToJSON`.
 
 ## Desktop app
